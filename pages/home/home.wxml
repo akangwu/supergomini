@@ -1,0 +1,7 @@
+<!--pages/home/home.wxml-->
+<!-- 1.显示轮播数据 -->
+<w-swiper list="{{banners}}" />
+<!-- 2.展示推荐数据 -->
+<w-recommend recommend="{{recommend}}"/>
+<!-- 3.显示流行数据，这里只是一个图片，即使不是图片，用flex布局也可以实现，比较简单 -->
+<w-popular mode="widthFix"/>
